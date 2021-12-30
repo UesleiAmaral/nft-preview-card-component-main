@@ -1,75 +1,81 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
   <link rel="stylesheet" href="/design/css/style.css">
-  
+
   <title>Frontend Mentor | NFT preview card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
+
 <body>
 
   <div class="container">
 
 
-      <!-- INICIO DO CARD -->
+    <!-- INICIO DO CARD -->
     <div class="card">
 
       <!-- IMAGEM PRINCIPAL DO CARD -->
       <figure class="image_equilibrium">
-        <img
-          src="/images/image-equilibrium.jpg"
-          alt="image Equilibrium">
+        <img src="/images/image-equilibrium.jpg" alt="image Equilibrium">
       </figure>
       <!-- FIM IMAGEM PRINCIPAL DO CARD -->
 
       <!-- NOME E TEXTO DO CARD -->
-        <h1>Equilibrium #3429</h1>
-      
-        <p>Our Equilibrium collection promotes balance and calm.</p>
+      <h1>Equilibrium #3429</h1>
+
+      <p>Our Equilibrium collection promotes balance and calm.</p>
       <!-- FIM NOME E TEXTO DO CARD -->
 
-      <!-- ICONE ETH -->
+
+      <div class="teste">
+        <!-- ICONE ETH -->
         <figure class="icon_figure">
-          <img
-            class="img_eth"
-            src="/images/icon-ethereum.svg"
-            alt="icon ethereum"> 0.041 ETH
-
-      <!-- ICONE RELOGIO -->
-          <img
-            class="img_clock"
-            src="/images/icon-clock.svg"
-            alt="icon clock"> 3 days left
+          <img class="img_eth" src="/images/icon-ethereum.svg" alt="icon ethereum"> <span>0.041 ETH</span>
         </figure>
+        <!-- ICONE RELOGIO -->
 
-        <!-- IMAGEM DO USUARIO -->
-        <figure class="image_avatar">
-          <img
-            class="img_avatar"
-            src="/images/image-avatar.png"
-            alt="image avatar">
-            Creation of <a href="#"> Jules Wyvern </a>
+        <figure class="icon_figure2">
+          <img class="img_clock" src="/images/icon-clock.svg" alt="icon clock"> 3 days left
         </figure>
-      
+      </div>
+
+      <!-- IMAGEM DO USUARIO -->
+      <figure class="image_avatar">
+        <img class="img_avatar" src="/images/image-avatar.png" alt="image avatar">
+
+        <span>Creation of <a href="#"> Jules Wyvern </a></span>
+        
+      </figure>
+
     </div>
   </div>
 
 
   <!-- RODA PÉ -->
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Your Name Here</a>.
   </div>
 
 </body>
+
 </html>
