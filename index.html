@@ -4,15 +4,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-
   <link rel="stylesheet" href="/design/css/style.css">
 
   <title>Frontend Mentor | NFT preview card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution {
       font-size: 11px;
@@ -30,47 +30,69 @@
 
 <body>
 
-  <div class="container">
-
-
+  <main class="container">
     <!-- INICIO DO CARD -->
     <div class="card">
 
-      <!-- IMAGEM PRINCIPAL DO CARD -->
+
+
+
+
+    <section class="card_contentPrincipal">
       <figure class="image_equilibrium">
         <img src="/images/image-equilibrium.jpg" alt="image Equilibrium">
       </figure>
-      <!-- FIM IMAGEM PRINCIPAL DO CARD -->
 
-      <!-- NOME E TEXTO DO CARD -->
       <h1>Equilibrium #3429</h1>
 
       <p>Our Equilibrium collection promotes balance and calm.</p>
-      <!-- FIM NOME E TEXTO DO CARD -->
+    </section>
 
 
-      <div class="teste">
-        <!-- ICONE ETH -->
-        <figure class="icon_figure">
-          <img class="img_eth" src="/images/icon-ethereum.svg" alt="icon ethereum"> <span>0.041 ETH</span>
+
+
+
+      <section class="card_contentMid">
+
+        <figure class="img_eth">
+          <img src="/images/icon-ethereum.svg" alt="icon ethereum">
         </figure>
-        <!-- ICONE RELOGIO -->
+        <span>
+          0.041 ETH
+        </span>
 
-        <figure class="icon_figure2">
-          <img class="img_clock" src="/images/icon-clock.svg" alt="icon clock"> 3 days left
+        <figure class="img_clock">
+          <img src="/images/icon-clock.svg" alt="icone clock">
         </figure>
-      </div>
+        <span>
+          3 days left
+        </span>
 
-      <!-- IMAGEM DO USUARIO -->
-      <figure class="image_avatar">
-        <img class="img_avatar" src="/images/image-avatar.png" alt="image avatar">
+      </section>
 
-        <span>Creation of <a href="#"> Jules Wyvern </a></span>
 
-      </figure>
+
+
+
+
+      <section class="card_contentAutor">
+        <figure class="img_autor">
+          <img src="/images/image-avatar.png" alt="image avatar">
+        </figure>
+        <span>
+          Creation of <a href="#"> Jules Wyvern </a>
+        </span>
+      </section>
+
+
+
+
+
+
+    
 
     </div>
-  </div>
+  </main>
 
 
   <!-- RODA PÉ -->
