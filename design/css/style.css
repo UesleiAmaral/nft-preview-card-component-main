@@ -16,9 +16,9 @@
 }
 
 .card {
-    width: 28%;
-    height: 88vh;
-    margin: 2% auto;
+    width: 20%;
+    height: 70vh;
+    margin: 8% auto;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
@@ -47,7 +47,7 @@
 }
 
 .teste {
-    width: 28vw;
+    width: 20vw;
     margin: 0 auto;
     display: flex;
     align-content: flex-end;
@@ -74,27 +74,24 @@
 
 
 .image_avatar{
-    margin: 0 5%;
+    margin: 0;
     padding: 5% 0;
     border-top: 1px solid grey;
-   
+   text-align: center;
+   justify-content: center;
+   align-content: center;
 }
 
 .image_avatar img{
     width: 40px;
     height:40px;
-    justify-content: center;
-    align-content: center;
     border-radius: 20px ;
     border: 2px solid rgb(255, 255, 255);
 
 }
 
 .image_avatar span {
-    padding-left: 1%;
-    position: absolute;
-    bottom: 13%;
-
+    display: inline-block;
     color:hsl(215, 51%, 70%);
 
 
@@ -103,5 +100,4 @@
 .image_avatar a {
     color: hsl(0, 0%, 89%);
     text-decoration: none;
-
 }
